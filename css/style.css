@@ -57,6 +57,7 @@ table {
     border-collapse: collapse;
 }
 
+/*css tabella*/
 thead {
     text-align: left;
     color: white;
@@ -78,6 +79,22 @@ thead {
     background-color: rgb(183, 255, 255);
 }
 
+/*css ultima sezione*/
 h3 {
     color: grey;
 }
+
+.box {
+    color: white;
+    width: 180px;
+    height: 130px;
+}
+
+.box.foto1 {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+ .box.foto2 {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+ }
