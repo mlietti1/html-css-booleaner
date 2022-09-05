@@ -1,5 +1,5 @@
-* {
-    margin: 0;
+body {
+    margin: 0px;
 }
 
 header {
@@ -10,7 +10,27 @@ header {
     padding-left: 3px;
     padding-bottom: 5px;
 }
+.container {
+    margin-left: 5px;
+}
 
 #logo {
     width: 20%;
+}
+
+.titolo p {
+    color: grey;
+    font-size: 12px;
+}
+
+p, #data {
+    font-size: 8px;
+}
+
+#testo-colorato {
+    color: rgb(75, 177, 236);
+}
+
+figcaption {
+    font-size: 8px;
 }
