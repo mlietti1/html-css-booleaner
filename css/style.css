@@ -1,37 +1,44 @@
-body {
+* {
     margin: 0px;
-    font-size: 12px;
+    padding: 0px;
+
 }
 
 header {
+    height: 80px;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    background-size: 300px;
-    padding-top: 30px;
-    padding-left: 3px;
-    padding-bottom: 5px;
+    background-size: 25%;
+    padding: 10px;
+   
 }
+
+main {
+    padding: 20px 10px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 40px;
+}
+
 .container {
     margin-left: 5px;
     width: 100%;
 }
 
-#logo {
-    width: 20%;
-}
 h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 .titolo p {
     color: grey;
-    font-size: 12px;
     margin-bottom: 0;
     margin-top: 0px;
 }
 
 #data {
-    font-size: 8px;
+    font-size: 0.8em;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -40,21 +47,26 @@ h1 {
     color: rgb(75, 177, 236);
 }
 
-figcaption {
-    font-size: 8px;
+.text,p {
+    margin-top: 20px;
 }
 
-#testo-evidenziato {
+.caption {
+    font-size: 0.8em;
+}
+
+.testo-evidenziato {
     background-color: yellow;
 }
 
-ul {
+main ul {
     padding-left: 1.2em;
+    margin-top: 20px;
 }
 
-table {
-    width: 100%;
+main table {
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 /*css tabella*/
@@ -79,15 +91,22 @@ thead {
     background-color: rgb(183, 255, 255);
 }
 
-/*css ultima sezione*/
-h3 {
+/*footer*/
+
+footer {
+    padding: 20px 10px;
+ }
+
+h4 {
     color: grey;
 }
 
 .box {
     color: white;
-    width: 180px;
-    height: 130px;
+    width: 207px;
+    height: 158px;
+    margin-top: 15px;
+    padding: 10px;
 }
 
 .box.foto1 {
@@ -98,3 +117,4 @@ h3 {
     background-image: url(../img/graph.jpg);
     background-size: cover;
  }
+
